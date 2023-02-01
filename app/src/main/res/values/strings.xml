@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigation Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="info">This app is a test app for important concepts in Android Navigation.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, sapien quis consectetur suscipit, dui arcu molestie nisl, sed posuere nulla eros non eros.\n\nCurabitur convallis iaculis erat, ut vehicula erat pellentesque eget.</string>
+    <string name="drawer_header">Drawer Header</string>
+</resources>
