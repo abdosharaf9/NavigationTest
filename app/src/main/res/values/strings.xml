@@ -6,4 +6,19 @@
     <string name="close">Close</string>
     <string name="info">This app is a test app for important concepts in Android Navigation.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, sapien quis consectetur suscipit, dui arcu molestie nisl, sed posuere nulla eros non eros.\n\nCurabitur convallis iaculis erat, ut vehicula erat pellentesque eget.</string>
     <string name="drawer_header">Drawer Header</string>
+    <string name="welcome">Welcome to the\nNavigation Test App</string>
+    <string name="tap_the_button">Tap the button to continue</string>
+    <string name="next">Next</string>
+    <string name="name">Name</string>
+    <string name="please_enter_your_data">Please enter your data</string>
+    <string name="age">Age</string>
+    <string name="gpa">GPA</string>
+    <string name="card_name_label">Name: </string>
+    <string name="card_gpa_label">GPA: </string>
+    <string name="card_age_label">Age: </string>
+    <string name="your_profile">Your Profile Data</string>
+    <string name="start_over">Start Over</string>
+    <string name="share">Share</string>
+    <string name="exit">Exit</string>
+    <string name="favourites">Favourites</string>
 </resources>

@@ -15,7 +15,7 @@ class FirstFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentFirstBinding.inflate(inflater, container, false)
 
-        binding.tv1.setOnClickListener {
+        binding.btnGoToNext1.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
         }
 

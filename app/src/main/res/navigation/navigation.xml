@@ -10,7 +10,9 @@
         android:label="First Fragment">
         <action
             android:id="@+id/action_firstFragment_to_secondFragment"
-            app:destination="@id/secondFragment" />
+            app:destination="@id/secondFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
@@ -18,7 +20,8 @@
         android:label="Second Fragment">
         <action
             android:id="@+id/action_secondFragment_to_thirdFragment"
-            app:destination="@id/thirdFragment" />
+            app:destination="@id/thirdFragment"
+            app:popUpTo="@id/firstFragment" />
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
@@ -29,6 +32,15 @@
             app:destination="@id/firstFragment"
             app:popUpTo="@id/firstFragment"
             app:popUpToInclusive="true" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="age"
+            app:argType="string" />
+        <argument
+            android:name="gpa"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/infoFragment"
